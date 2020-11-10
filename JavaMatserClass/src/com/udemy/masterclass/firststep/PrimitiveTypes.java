@@ -64,6 +64,20 @@ public class PrimitiveTypes {
 		
 		long num = 2_147_483_647_123L;
 		System.out.println("Long Munber: " + num);
+		System.out.println();
+		
+		float floatMinNum = Float.MIN_VALUE;
+		float floatmaxNum = Float.MAX_VALUE;
+		System.out.println("Minumun value of float: " + floatMinNum);
+		System.out.println("Maximum value of float: " + floatmaxNum);
+		System.out.println();
+		
+		double doubleMinNum = Double.MIN_VALUE;
+		double doublemaxNum = Double.MAX_VALUE;
+		System.out.println("Minumun value of double: " + doubleMinNum);
+		System.out.println("Maximum value of double: " + doublemaxNum);
+		System.out.println();
+		
 		
     }
 
